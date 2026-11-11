@@ -1,118 +1,95 @@
-## 1. Triangle Pattern
+# Python Programming Lab
 
-**Aim:** Take the number of rows as input and print a centered triangle pattern using stars.
+This repository contains Python programs completed as part of the **Python Programming Lab**. These programs demonstrate basic Python concepts, user input, arithmetic operations, string methods, variables, and data types.
 
-**Logic:** Take the number of rows as input and use a `for` loop to print spaces before the stars and increase the number of stars in each row.
+## Student Details
 
-**Sample Input / Output:**
+| Detail | Information |
+|---|---|
+| **Author** | Aayush Singh |
+| **Roll Number** | IC-2K24-04 |
+| **Subject** | Python Programming Lab |
+| **Language** | Python |
 
-```text
-Enter number of rows: 5
+## Programs Included
 
-    *
-   * *
-  * * *
- * * * *
-* * * * *
+### 1. Celsius to Fahrenheit Conversion
+A program that accepts temperature in Celsius from the user and converts it into Fahrenheit.
+
+**Concepts Used:** User Input, Float, Arithmetic Operations, Output.
+
+### 2. Arithmetic Operations
+A program that takes two integers from the user and performs basic arithmetic operations.
+
+**Operations:**
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Modulus (Remainder)
+
+**Concepts Used:** Integer Input, Variables, Arithmetic Operators.
+
+### 3. Food Billing Receipt
+A simple food billing program that displays a formatted receipt containing food items, quantities, prices, and the total bill.
+
+**Concepts Used:** Print Statements, Formatting, Escape Characters.
+
+### 4. String Methods
+A program that accepts the user's name and demonstrates different built-in Python string methods.
+
+**Methods Used:**
+- `upper()` – Converts text into uppercase.
+- `lower()` – Converts text into lowercase.
+- `strip()` – Removes leading and trailing spaces.
+- `len()` – Returns the length of the string.
+
+### 5. User Information Using F-Strings
+A program that accepts the user's name, age, and city, and displays the information using Python f-strings.
+
+**Concepts Used:** User Input, Variables, String Formatting (f-strings).
+
+### 6. Variables and Data Types
+A program that declares variables with different values and displays their respective data types using the `type()` function.
+
+**Data Types Demonstrated:**
+- `str` – String
+- `int` – Integer
+- `float` – Floating Point
+- `bool` – Boolean
+
+## Requirements
+
+- Python 3.x
+- Any Python IDE or code editor (VS Code recommended)
+
+## How to Run
+
+1. Clone or download this repository.
+2. Open the folder in Visual Studio Code or any Python IDE.
+3. Open the desired Python (`.py`) file.
+4. Run the program using the Python interpreter.
+
+Alternatively, execute a program from the terminal:
+
+```bash
+python filename.py
 ```
----
 
-## 2. Square Pattern
+## Learning Objectives
 
-**Aim:** Take the size of the square as input and print a square pattern using stars.
+Through these lab programs, the following Python fundamentals are covered:
 
-**Logic:** Take the size as input and use a `for` loop to print the same number of stars in every row and repeat it for the given number of rows.
-
-**Sample Input / Output:**
-
-```text
-Enter size: 5
-
-* * * * *
-* * * * *
-* * * * *
-* * * * *
-* * * * *
-```
-
----
-
-## 3. Right Angle Triangle
-
-**Aim:** Take the number of rows as input and print a right-angle triangle pattern using stars.
-
-**Logic:** Take the number of rows as input and use a `for` loop to increase the number of stars by one in each row.
-
-**Sample Input / Output:**
-
-```text
-Enter number of rows: 5
-
-*
-* *
-* * *
-* * * *
-* * * * *
-```
-
----
-
-## 4. Inverse Triangle
-
-**Aim:** Take the number of rows as input and print an inverted triangle pattern using stars.
-
-**Logic:** Take the number of rows as input and use a `for` loop that starts from the given number and decreases the number of stars by one in each row.
-
-**Sample Input / Output:**
-
-```text
-Enter number of rows: 5
-
-* * * * *
-* * * *
-* * *
-* *
-*
-```
-
----
-
-## 5. Rhombus Pattern
-
-**Aim:** Take the number of rows as input and print a rhombus pattern using stars.
-
-**Logic:** Take the number of rows as input and use a `for` loop to print the same number of stars in every row while adding spaces before the stars to create the rhombus shape.
-
-**Sample Input / Output:**
-
-```text
-Enter number of rows: 5
-
-    * * * * *
-   * * * * *
-  * * * * *
- * * * * *
-* * * * *
-```
+- Understanding variables and data types.
+- Taking input from users.
+- Performing arithmetic calculations.
+- Using built-in string methods.
+- Formatting output using print statements and f-strings.
+- Understanding basic Python syntax and program execution.
 
 ---
 
-## 6. Number Pattern
+**Author:** Aayush Singh  
+**Roll Number:** IC-2K24-04
 
-**Aim:** Take a number as input and print a symmetric number pattern using nested `for` loops.
-
-**Logic:** Use nested `for` loops to create rows and columns. Calculate the values from the outer and inner boundaries and print numbers that decrease toward the center and increase symmetrically outward.
-
-**Sample Input / Output:**
-
-```text
-Enter n: 4
-
-4 4 4 4 4 4 4
-4 3 3 3 3 3 4
-4 3 2 2 2 3 4
-4 3 2 1 2 3 4
-4 3 2 2 2 3 4
-4 3 3 3 3 3 4
-4 4 4 4 4 4 4
-```
+*Python Programming Lab – Practical Assignments*
