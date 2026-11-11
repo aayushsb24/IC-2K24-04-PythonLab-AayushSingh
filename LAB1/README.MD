@@ -1,65 +1,118 @@
-GIVE THE README.MD FOR THE FOLLOWING CODES OF A SAME FOLDER 
-WRITE AUTHOR AAYUSH SINGH BAGHEL
-ROLL NO. IC-2K24-04
+## 1. Triangle Pattern
 
-#Celsius to Fahrenheit conversion
-cel=float(input("Enter temprature in Celsius: "))
-fah=float((cel * (9/5)) + 32)
-print("Temp in Celsius: ",cel)
-print("Temp in Fahrenheit", fah)
+**Aim:** Take the number of rows as input and print a centered triangle pattern using stars.
 
-#program to perform operations by taking input from user
-a=int(input("Enter First number: "))
-b=int(input("Enter Second number: "))
-sum=a+b
-diff=a-b
-pro=a*b
-quo=a/b
-rem=a%b
-print("Sum:",sum) 
-print("Difference:",diff) 
-print("Product:",pro) 
-print("Quotient:",quo) 
-print("Remainder:",rem) 
+**Logic:** Take the number of rows as input and use a `for` loop to print spaces before the stars and increase the number of stars in each row.
 
-#Small food billing Reciept program
-print("--------------Food Bill---------------")
-print("Food Item\tQuantity\tPrice")
-print("Rolls\t\t3\t\t150")
-print("Burger\t\t2\t\t100")
-print("Coffee\t\t2\t\t250")
-print("--------------------------------------")
-print("Total:\t\t\t\t500")
-print("--------------------------------------")
+**Sample Input / Output:**
 
-#using different string methods
-name=input("Enter your name: ")
-print("1st operation, Uppercase: ",name.upper())
-print("2nd operation, Lowercase: ",name.lower())
-print("3rd operation, Without extra Sidespaces: ",name.strip())
-print("4th operation, length: ", len(name))
+```text
+Enter number of rows: 5
 
-#taking input from the user
-name=input("Enter your name: ")
-age=input("Enter your age: ")
-city=input("Enter your city: ")
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+```
+---
 
-#printing all together by default
-#print("Name: ",name,"Age: ",age,"city: ",city)
+## 2. Square Pattern
 
-#printing all together using fstring
-print(f"My name is {name}, I am {age} years old, and I live in {city}.")
+**Aim:** Take the size of the square as input and print a square pattern using stars.
 
-#Variable declartion 
-name = "AAYUSH"
-age = 20
-height = 5.9
-is_student = True
+**Logic:** Take the size as input and use a `for` loop to print the same number of stars in every row and repeat it for the given number of rows.
 
-#checking variable type
-print("Name Type:", type(name))
-print("Age Type:", type(age))
-print("Height Type:", type(height))
-print("Student Type:", type(is_student))
+**Sample Input / Output:**
 
-THESE ARE THE PYTHON LAB CODES
+```text
+Enter size: 5
+
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+```
+
+---
+
+## 3. Right Angle Triangle
+
+**Aim:** Take the number of rows as input and print a right-angle triangle pattern using stars.
+
+**Logic:** Take the number of rows as input and use a `for` loop to increase the number of stars by one in each row.
+
+**Sample Input / Output:**
+
+```text
+Enter number of rows: 5
+
+*
+* *
+* * *
+* * * *
+* * * * *
+```
+
+---
+
+## 4. Inverse Triangle
+
+**Aim:** Take the number of rows as input and print an inverted triangle pattern using stars.
+
+**Logic:** Take the number of rows as input and use a `for` loop that starts from the given number and decreases the number of stars by one in each row.
+
+**Sample Input / Output:**
+
+```text
+Enter number of rows: 5
+
+* * * * *
+* * * *
+* * *
+* *
+*
+```
+
+---
+
+## 5. Rhombus Pattern
+
+**Aim:** Take the number of rows as input and print a rhombus pattern using stars.
+
+**Logic:** Take the number of rows as input and use a `for` loop to print the same number of stars in every row while adding spaces before the stars to create the rhombus shape.
+
+**Sample Input / Output:**
+
+```text
+Enter number of rows: 5
+
+    * * * * *
+   * * * * *
+  * * * * *
+ * * * * *
+* * * * *
+```
+
+---
+
+## 6. Number Pattern
+
+**Aim:** Take a number as input and print a symmetric number pattern using nested `for` loops.
+
+**Logic:** Use nested `for` loops to create rows and columns. Calculate the values from the outer and inner boundaries and print numbers that decrease toward the center and increase symmetrically outward.
+
+**Sample Input / Output:**
+
+```text
+Enter n: 4
+
+4 4 4 4 4 4 4
+4 3 3 3 3 3 4
+4 3 2 2 2 3 4
+4 3 2 1 2 3 4
+4 3 2 2 2 3 4
+4 3 3 3 3 3 4
+4 4 4 4 4 4 4
+```
