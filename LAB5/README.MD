@@ -1,4 +1,4 @@
-# IC-2K24-34-PythonLab-DhruvPardeshi
+# IC-2K24-04-PythonLab-AayushSingh
 # Python Lab Repository
 
 ## Student Information
