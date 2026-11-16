@@ -16,7 +16,7 @@ It covers fundamental and intermediate Python programming concepts, including va
 
 ## Repository Structure
 
-    IC-2K24-34-PythonLab-DhruvPardeshi/
+    IC-2K24-04-PythonLab-Aayushsingh/
     │
     ├── Lab1/
     │   ├── variable_practice.py
