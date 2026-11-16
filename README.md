@@ -1,9 +1,9 @@
-# IC-2K24-34-PythonLab-DhruvPardeshi
+# IC-2K24-04-PythonLab-AayushSingh
 # Python Lab Repository
 
 ## Student Information
 
-- **Name:** Aayush Singh BAGHEL
+- **Name:** Aayush Singh Baghel
 - **Roll Number:** IC-2K24-04
 - **Course:** MCA (5 Years)
 - **Semester:** 5th Semester
